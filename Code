@@ -1,0 +1,1189 @@
+#outer.wrapper {
+  background-color: #3c3a45 !important;
+}
+
+body,
+th,
+tr:hover,
+col.name,
+form blockquote.userstuff,
+input,
+select,
+textarea,
+.autocomplete div.dropdown ul,
+#ui-datepicker-div,
+.nomination dt {
+  background: #3c3a45;
+  color: #cac5d1;
+  border-radius: 3px;
+}
+
+::selection {
+  background: #cac5d1 !important;
+  color: #2a2933 !important;
+}
+
+.input,
+.highlighted {
+  border: none;
+}
+
+select,
+input {
+  padding: 4px;
+  border: none;
+  margin-left: 2px;
+  width: 98%;
+}
+
+.toggled form,
+.secondary,
+#ibox_wrapper,
+#ibox_content,
+.toggled form dl,
+.secondary dl,
+#ibox_wrapper dl,
+#ibox_content dl,
+.dynamic form,
+.dynamic form dl,
+.dynamic form fieldset,
+.statistics .index li:nth-of-type(even) {
+  color: #cac5d1;
+  background-color: #2a2933;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+#header .search input[type="text"]:focus,
+.actions input[type="text"]:focus,
+form.search input[type="text"]:focus,
+.search input[type="text"]:focus {
+  color: #FFFFFF;
+  background: #1d1c24;
+  outline: 1px solid #827d8a;
+}
+
+.actions input[type="text"]:focus,
+form.search input[type="text"]:focus,
+.search input[type="text"]:focus,
+.textarea,
+.autocomplete input:focus {
+  color: #FFFFFF;
+  background: #1d1c24;
+  border: 1px solid #2a2933;
+  box-shadow: none;
+  padding: 5px;
+  width: 90%;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.blurb li,
+.stats>*,
+.meta ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 0px;
+}
+
+.subscription dd {
+  background-color: #3c3a45 !important;
+}
+
+#small_login,
+.actions a:active,
+.current span,
+.current,
+a.current,
+.actions .current,
+.current,
+.current a:visited,
+.current a:link,
+#dashboard .current,
+.actions a:active,
+span.unread,
+.replied,
+span.claimed,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  color: #cac5d1;
+  background: #2a2933;
+  border: none;
+  background-image: none;
+  border-bottom: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+.announcement .userstuff h2 {
+  margin-top: 10px;
+  color: #cac5d1;
+}
+
+.actions input[type="text"],
+form.search input[type="text"],
+li.search fieldset,
+.search input[type="text"] {
+  color: #cac5d1;
+  background: #3c3a45;
+  border: 1px solid #cac5d1;
+  border-radius: .25em;
+  box-shadow: none;
+  padding: 5px;
+  width: 90%;
+  -webkit-appearance: none;
+}
+
+.bookmark div.user {
+  border-radius: 0.5em;
+}
+
+.heading a,
+.heading {
+  color: #cac5d1;
+}
+
+.blurb .heading {
+  color: #cac5d1;
+}
+
+#login-block,
+li.blurb,
+fieldset,
+form dl,
+#symbols-key dl,
+.toggled form,
+.dynamic form,
+div.comment,
+li.comment,
+.comment div.icon,
+.autocomplete div.dropdown ul,
+#modal,
+.bookmark p.count span,
+.ui-sortable li:hover,
+.actions a:hover,
+.actions input:hover {
+  border-color: transparent;
+}
+
+.blurb.work:not(:has(dd[lang$="en"])):before {
+  content: "Work removed for Non-English language";
+}
+
+.blurb.work:not(:has(dd[lang$="en"])) > * {
+  display: none !important;
+}
+
+a,
+a:link,
+a.tag,
+.tags a,
+a.cloud1,
+a.cloud2 {
+  color: #cac5d1;
+}
+
+a:visited,
+a.cloud6 {
+  color: #827d8a;
+}
+
+.btn {
+  color: #2a2933;
+  background: #827d8a;
+  border-radius: .25em;
+  border: none !important;
+}
+
+tfoot,
+tfoot td,
+th,
+tr:hover,
+col.name,
+span.unread,
+.replied,
+span.claimed,
+.bookmark .user {
+  color: #cac5d1;
+  border: 1px solid #2a2933;
+  background: #2a2933;
+  border-radius: 5px;
+}
+
+.ui-sortable li:hover,
+.readings-index h3,
+.search span.tip {
+  background: #2a2933;
+  color: #cac5d1;
+}
+
+#main.error,
+#main.slow,
+#main.maintenance,
+.required .autocomplete,
+.autocomplete .notice,
+.post .required .warnings,
+.userstuff h2,
+.userstuff caption,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link,
+a.cloud3,
+fieldset fieldset.listbox {
+  color: #cac5d1;
+  background: #2a2933;
+}
+
+.userstuff h2 {
+  padding: 10px;
+}
+
+.userstuff h3 {
+  font-size: 2em;
+}
+
+#header #greeting img,
+#header .heading a,
+#header fieldset,
+#header form,
+#header p,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#header .primary a,
+#dashboard a:hover,
+.actions a:hover,
+.announcement a:link:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.system .latest h3,
+.system div.news h3,
+.system .tweets h3,
+.required,
+form dd.required,
+a.cloud7,
+a.cloud8 {
+  color: #cac5d1;
+}
+
+h2,
+.system p#signup,
+#header h2 {
+  text-shadow: none;
+}
+
+.secondary .toggled form,
+.mods li,
+.blurb .header ul,
+.blurb .header p.status {
+  background: #2a2933;
+}
+
+a:visited,
+.listbox .heading a:visited {
+  color: #827d8a;
+  background: #2a2933;
+}
+
+span.series .divider {
+  color: #cac5d1;
+  background: transparent;
+}
+
+a.tag:hover {
+  color: #2a2933;
+  background: #827d8a;
+}
+
+.listbox .heading a:visited:hover,
+a.tag:visited:hover {
+  color: #2a2933;
+  background: #827d8a;
+}
+
+a:visited:hover {
+  color: #2a2933;
+  background: transparent;
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+.actions li a,
+.actions li .current,
+.actions .current {
+  background: #cac5d1;
+  color: #2a2933;
+}
+
+.action:link {
+  color: #cac5d1;
+  background: #2a2933;
+}
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions a:visited:hover,
+.actions button:hover,
+.actions a:link:hover,
+.actions a:hover,
+.actions .current:hover,
+.actions li .current a:hover,
+.action:visited:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: #1d1c24 !important;
+  color: #cac5d1 !important;
+  border: none;
+  outline: 1px solid #827d8a !important;
+  border-bottom: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+.actions li input[type="submit"],
+.actions a:visited,
+.action:visited,
+.actions button,
+.actions a:link,
+a:hover {
+  background: #827d8a;
+  color: #2a2933;
+  border: none;
+}
+
+.action.top,
+.action a:link {
+  background: #3c3a45;
+  color: #cac5d1;
+  height: auto;
+  font-weight: bolder;
+  padding: .15em .25em;
+}
+
+.actions a,
+.action,
+input[type="submit"],
+button,
+.current,
+.actions label,
+.actions input,
+li.relationships,
+li.relationships a,
+.preface h3 {
+  background-color: transparent;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.actions label,
+a.cloud4,
+a.cloud5 {
+  color: #2a2933;
+  background: #cac5d1;
+}
+
+button,
+.actions a,
+.action,
+.actions label,
+.actions input,
+.current,
+input[type="submit"] {
+  color: #2a2933;
+  border-color: #cac5d1;
+  background: #cac5d1;
+}
+
+.autocomplete div.dropdown ul {
+  border: 1px solid #cac5d1;
+}
+
+.work.navigation .download,
+.javascript .work.navigation .download .secondary {
+  background: #2a2933;
+  border: 2px solid #1d1c24;
+  box-shadow: none;
+}
+
+.userstuff blockquote {
+  border-inline-start: 2px solid #827d8a;
+}
+
+.thread .odd {
+  background: #504E5C;
+}
+
+.thread .even {
+  background: #2a2933;
+}
+
+.thread .odd h4.byline {
+  background: #454350;
+}
+
+.comment h4.byline {
+  background: #1d1c24;
+}
+
+.comment fieldset {
+  border: 0px;
+}
+
+.thread .thread {
+  margin-left: 8%;
+}
+
+.notice,
+form .notice {
+  padding: 1em;
+  color: #cac5d1;
+  background: #2a2933;
+  border: 1px solid #827d8a;
+  border-radius: 5px;
+}
+
+.comment_notice,
+.kudos_notice,
+ul.notes {
+  color: #cac5d1;
+  background: #2a2933;
+  border: 1px solid #827d8a;
+  box-shadow: none;
+  padding: 1em;
+}
+
+#outer #header #greeting .icon,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active {
+  border: none;
+}
+
+.caution {
+  background: #d4ce9d;
+  color: #000000;
+  padding: 1em;
+  border: 2px solid #9c9959;
+  box-shadow: none;
+}
+
+.kudos_error {
+  background: #7E799C;
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 2px;
+  border-color: #1d1c24;
+}
+
+.error,
+.comment_error,
+.alert.flash {
+  background: #9c5454;
+  color: #FFFFFF;
+  padding: 1em !important;
+  border: 2px solid #632626;
+  box-shadow: none;
+}
+
+#header h2 {
+  background: #1d1c24 !important;
+  border-color: #1d1c24;
+  color: #cac5d1;
+  text-shadow: none;
+}
+
+#header .search input[type="text"] {
+  color: #cac5d1 !important;
+}
+
+#header #search input:focus {
+  outline: 1px solid #827d8a;
+}
+
+#header #search > * {
+  width: 70%;
+  white-space: nowrap;
+  margin-right: 60px;
+}
+
+#header .user a,
+#header .user a:visited {
+  color: #cac5d1 !important;
+  background: #3c3a45;
+}
+
+#header .primary {
+  background: #2a2933;
+  box-shadow: none;
+  padding: 1em;
+}
+
+#header .primary .menu .current {
+  color: #2a2933 !important;
+}
+
+#header .dropdown:hover .menu {
+  background: #2a2933 !important;
+}
+
+#header .primary>li:first-of-type {
+  margin-left: 2em;
+}
+
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #cac5d1;
+}
+
+#header .primary a:hover {
+  background: #827d8a;
+}
+
+#header ul.primary .current,
+#header #small_login {
+  border-color: #827d8a;
+  box-shadow: none;
+}
+
+#header ul.primary {
+  box-shadow: none;
+  padding: 1em;
+  background: #2a2933;
+  border: 1px solid #2a2933;
+  color: #cac5d1;
+}
+
+#header #greeting img,
+#header .heading a,
+#header fieldset,
+#header form,
+#header p,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current {
+  color: #cac5d1;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+#header #small_login {
+  background: #2a2933;
+}
+
+#header .menu {
+  background: none;
+  background-image: none;
+}
+
+#header .menu li a:link,
+#header .menu li a:visited {
+  background: #2a2933 !important;
+  color: #cac5d1 !important;
+}
+
+#header .dropdown:hover a,
+#header .menu li a:hover {
+  color: #2a2933 !important;
+  background: #cac5d1 !important;
+}
+
+#header .dropdown {
+  color: #cac5d1 !important;
+  background: #2a2933;
+}
+
+#header .dropdown a:hover {
+  color: #2a2933;
+}
+
+#header .dropdown .menu .current {
+  background-color: #cac5d1;
+  color: #2a2933;
+}
+
+#header #search .button {
+  color: #2a2933;
+  background: #827d8a;
+}
+
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+#header #search .button:hover {
+  color: #1d1c24;
+  background: #cac5d1;
+}
+
+#header #search .button:hover {
+  color: #2a2933 !important;
+  background: #cac5d1 !important;
+}
+
+.blurb {
+  margin-bottom: 15px;
+}
+
+li.blurb {
+  border-radius: 0.75em;
+  background: #2a2933;
+  border: none;
+}
+
+.blurb ul.required-tags {
+  background: transparent !important;
+}
+
+.blurb .header .heading {
+  background: transparent !important;
+}
+
+.blurb .stats {
+  color: #cac5d1;
+}
+
+h5.module .fandoms .heading,
+.meta .stats,
+.meta .stats dl dt,
+.blurb dl.stats dt,
+.meta .stats dl dd,
+.dashboard. own. work {
+  background: transparent !important;
+}
+
+.own,
+dl.index dd {
+  color: #cac5d1;
+  background: #2a2933;
+}
+
+dl.index dd {
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.draft,
+.draft .userstuff p,
+.draft .wrapper {
+  color: #2a2933;
+  background: #e4e1e8;
+}
+
+.draft {
+  border: 3px dotted #827d8a;
+  margin-bottom: 20px;
+}
+
+.meta {
+  color: #cac5d1;
+}
+
+.module .heading h4,
+.module .heading h5,
+.blurb dl.stats,
+.blurb dl.stats dd,
+.comment dl.stats,
+.comment dl.stats dd .assignment dl.stats,
+.assignment dl.stats dt,
+.assignment dl.stats dd,
+dl.stats,
+dl.stats dt {
+  background: transparent !important;
+}
+
+.assignment .index dt {
+  margin-bottom: 5px;
+}
+
+.blurb dl.stats,
+.blurb dl.stats dt {
+  margin-bottom: 7px;
+  background: transparent;
+}
+
+.userstuff p {
+  color: #cac5d1;
+  outline: none;
+}
+
+.user .datetime {
+  color: #cac5d1;
+}
+
+ul.series,
+ul.series li {
+  color: #cac5d1;
+}
+
+.own .header,
+.inbox .actions,
+.inbox .comments,
+.pseud .header,
+.collection .header {
+  background: transparent;
+}
+
+.own .type {
+  color: #cac5d1;
+}
+
+.faq .example,
+.guideline .example {
+  border: 0px;
+  background-color: #2a2933;
+  border-radius: 5px;
+}
+
+.bookmark .count a {
+  color: #2a2933;
+  background: #cac5d1;
+}
+
+.announcement .userstuff {
+  background: #827d8a;
+  border: 2px double #2a2933;
+  color: #1d1c24;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.announcement .userstuff p,
+.announcement a:link {
+  color: #2a2933;
+}
+
+.announcement input[type="submit"],
+.announcement .action {
+  background: #1d1c24;
+  color: #cac5d1;
+  padding: .25em .5em;
+  border-radius: 2em;
+}
+
+input[name="preview_button"] {
+  color: #ffffff;
+  background: #78506B !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="post_button"] {
+  color: #ffffff;
+  background: #555078 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="preview_button"]:hover {
+  color: #000000 !important;
+  background: #B788A8 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="post_button"]:hover {
+  color: #000000 !important;
+  background: #8A84C4 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="cancel_button"] {
+  color: #ffffff;
+  background: #65001E !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="cancel_button"]:hover {
+  color: #000000 !important;
+  background: #93002D !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+.reading h4.viewed {
+  background: #1d1c24;
+  border: 1px solid #3c3a45;
+  padding: 0.75em;
+  border-radius: .25em;
+}
+
+.dashboard .listbox .index {
+  background: #3c3a45;
+  color: #cac5d1;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+#dashboard .actions a,
+#dashboard .actions a:visited {
+  color: #827d8a;
+}
+
+#dashboard .actions .current,
+#dashboard .actions .current:hover {
+  color: #2a2933 !important;
+  background: #827d8a !important;
+  outline: 1px solid #1d1c24;
+}
+
+#dashboard,
+#dashboard.own {
+  background: #3c3a45;
+  border-bottom: 5px solid #2a2933;
+  border-top: 5px solid #2a2933;
+}
+
+#dashboard a,
+#dashboard span,
+.dashboard .own {
+  background: #2a2933 !important;
+}
+
+#dashboard a:hover {
+  color: #cac5d1 !important;
+  background: #2a2933;
+  outline: none !important;
+}
+
+#dashboard ul,
+#dashboard ul.navigation {
+  border: none;
+}
+
+#dashboard .current {
+  background: #2a2933;
+}
+
+#dashboard a:focus {
+  color: #2a2933 !important;
+  background: #cac5d1 !important;
+}
+
+.dashboard .listbox {
+  border: 2px solid #2a2933;
+}
+
+.filters dl {
+  background: #2a2933;
+  color: #cac5d1;
+}
+
+.filters .indicator:before {
+  background: #1d1c24;
+  color: #cac5d1;
+  display: inline-block;
+  border: 1px solid;
+  margin-right: 0.25em;
+  text-align: center;
+  background-image: none;
+}
+
+.filters .expander {
+  content: " \2055";
+  color: #cac5d1 !important;
+  background-color: #2a2933;
+  padding: 0.75em 0 0.75em 14px;
+}
+
+.javascript {
+  background-color: #3c3a45 !important;
+}
+
+.filters .tags li,
+.review .tags,
+.tagset .listbox .tags li {
+  display: block;
+  padding: 3px;
+}
+
+filters input[type="submit"] {
+  width: 98%;
+}
+
+.filters .submit input {
+  width: 98%;
+  margin-right: 1px;
+}
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  background: #cac5d1;
+  color: #2a2933;
+  border: none;
+  padding: .5em;
+  box-shadow: none;
+  opacity: 100;
+  border-radius: .5em;
+}
+
+fieldset fieldset,
+fieldset,
+.fieldset {
+  background: #3c3a45;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+fieldset fieldset.listbox {
+  border: 2px solid #1d1c24;
+}
+
+table,
+thead td,
+fieldset,
+form dl,
+fieldset dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.toggled form fieldset,
+fieldset.comments,
+dd.hideme {
+  background: #2a2933;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip,
+#header ul.primary .current {
+  border-color: #827d8a;
+}
+
+.userstuff h3,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #2a2933;
+}
+
+.listbox .heading a.tag:visited:hover {
+  background: #827d8a;
+  color: #2a2933;
+}
+
+fieldset fieldset.listbox {
+  border: 2px solid #1d1c24;
+}
+
+.listbox>.heading {
+  color: #cac5d1;
+  padding: 12.5px;
+  padding-left: 10px;
+}
+
+.listbox .heading {
+  color: #cac5d1;
+  background: #2a2933;
+}
+
+.listbox .index {
+  background: #1d1c24;
+}
+
+.listbox {
+  color: #cac5d1;
+  background: #2a2933;
+  border-radius: 5px;
+  border: 1px solid #2a2933;
+}
+
+.symbol .question {
+  color: #cac5d1;
+  background: #1d1c24;
+  border: 1px solid #827d8a;
+  box-shadow: none;
+}
+
+#modal,
+#modal .content {
+  color: #cac5d1;
+  background: #1d1c24;
+  box-shadow: none;
+  border: 3px solid #827d8a;
+}
+
+.symbol .question:hover {
+  box-shadow: none;
+}
+
+.splash .module div.account {
+  background: #2a2933;
+}
+
+.splash .favorite li:nth-of-type(odd) a,
+.statistics .index li:nth-of-type(even) {
+  background: #2a2933;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:hover {
+  color: #2a2933;
+  background-color: #827d8a;
+}
+
+.splash .favorite a,
+.splash .module h3 {
+  color: #cac5d1;
+}
+
+.splash .favorite a:focus {
+  background: #cac5d1 !important;
+  color: #2a2933 !important;
+}
+
+.splash .browse a:hover {
+  color: #2a2933;
+  background: #827d8a;
+}
+
+.autocomplete .dropdown ul li:hover,
+li.selected {
+  color: #827d8a;
+  background: #2a2933;
+  font-face: georgia, serif;
+}
+
+.autocomplete .dropdown {
+  background: transparent;
+}
+
+#footer,
+#footer a,
+#footer button,
+#footer .heading,
+#footer ul,
+#footer ul.navigation a {
+  color: #cac5d1;
+  background: #2a2933;
+  font-face: georgia, serif;
+  border: none;
+}
+
+#footer a:hover {
+  color: #827d8a;
+}
+
+.ui-sortable li,
+div.dynamic {
+  background: #2a2933;
+}
+
+.skins .header dl.stats dt {
+  display: inline-block;
+}
+
+p.muted.notice,
+p.blocked.notice {
+  display: none;
+}
+
+.comment fieldset textarea {
+  position: fixed;
+  top: 40vw !important;
+  left: 90vw;
+  width: 4vw !important;
+  height: 4vw !important;
+  z-index: 20;
+  background-image: url(https://i.imgur.com/R160dOA.png);
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+.comment fieldset textarea:hover {
+  position: fixed;
+  top: 70em;
+  left: 4vw;
+  width: 94vw !important;
+  z-index: 20;
+  background-image: none;
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+
+#feedback textarea.comment_form {
+  min-height: 4vw;
+  background-size: 4vw 4vw;
+  background-repeat: no-repeat;
+  box-shadow: none;
+}
+
+#feedback textarea.comment_form:focus {
+  min-height: 10em;
+}
