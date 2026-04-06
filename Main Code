@@ -1151,39 +1151,3 @@ p.muted.notice,
 p.blocked.notice {
   display: none;
 }
-
-.comment fieldset textarea {
-  position: fixed;
-  top: 40vw !important;
-  left: 90vw;
-  width: 4vw !important;
-  height: 4vw !important;
-  z-index: 20;
-  background-image: url(https://i.imgur.com/R160dOA.png);
-  background-color: transparent;
-  border: none;
-  color: transparent;
-}
-
-.comment fieldset textarea:hover {
-  position: fixed;
-  top: 70em;
-  left: 4vw;
-  width: 94vw !important;
-  z-index: 20;
-  background-image: none;
-  background-color: white;
-  color: black;
-  box-shadow: none;
-}
-
-#feedback textarea.comment_form {
-  min-height: 4vw;
-  background-size: 4vw 4vw;
-  background-repeat: no-repeat;
-  box-shadow: none;
-}
-
-#feedback textarea.comment_form:focus {
-  min-height: 10em;
-}
