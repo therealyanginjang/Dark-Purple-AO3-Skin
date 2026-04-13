@@ -1,4 +1,4 @@
-input[name="preview_button"] {
+input[name="preview_button"] { /*preview button */
   color: #ffffff !important;
   background: #78506B !important;
   border: none;
@@ -8,7 +8,7 @@ input[name="preview_button"] {
   box-shadow: none;
 }
 
-input[name="post_button"] {
+input[name="post_button"] { /*post button*/
   color: #ffffff !important;
   background: #555078 !important;
   border: none;
@@ -18,7 +18,7 @@ input[name="post_button"] {
   box-shadow: none;
 }
 
-input[name="preview_button"]:hover {
+input[name="preview_button"]:hover { /*preview button when hovered over*/
   color: #000000 !important;
   background: #B788A8 !important;
   border: none;
@@ -28,7 +28,7 @@ input[name="preview_button"]:hover {
   box-shadow: none;
 }
 
-input[name="post_button"]:hover {
+input[name="post_button"]:hover { /*colour of post button when hovered over*/
   color: #000000 !important;
   background: #8A84C4 !important;
   border: none;
@@ -38,7 +38,7 @@ input[name="post_button"]:hover {
   box-shadow: none;
 }
 
-input[name="save_button"] {
+input[name="save_button"] { /*save draft button*/
   color: #ffffff !important;
   background: #728774 !important;
   border: none;
@@ -48,7 +48,7 @@ input[name="save_button"] {
   box-shadow: none;
 }
 
-input[name="update_button"] {
+input[name="update_button"] { /*update button*/
   color: #ffffff !important;
   background: #74b37a !important;
   border: none;
@@ -58,50 +58,50 @@ input[name="update_button"] {
   box-shadow: none;
 }
 
-li.warnings a.tag:hover {
+li.warnings a.tag:hover { /*archive warning tags when hovered over*/
   background: transparent !important;
 }
 
-li.warnings a.tag[href*="Not"] {
+li.warnings a.tag[href*="Not"] { /*archive warning: creator chose not to use archive warnings*/
   color: #b6b7cf;
 }
 
-li.warnings a.tag[href*="Apply" i] {
+li.warnings a.tag[href*="Apply" i] { /*archive warning: no archive warnings apply*/
   color: #a7b3a4;
 }
 
-li.warnings a.tag[href*="Rape*s*Non-Con"] {
+li.warnings a.tag[href*="Rape*s*Non-Con"] { /*archive warning: rape/non-con*/
   color: #a36268;
 }
 
-li.warnings a.tag[href*="Violence" i] {
+li.warnings a.tag[href*="Violence" i] { /*archvie warning: graphic depictions of violence*/
   color: #826f5b;
 }
 
-li.warnings a.tag[href*="Underage" i] {
+li.warnings a.tag[href*="Underage" i] { /*archive warning: underage sex*/
   color: #7b6980;
 }
 
-li.warnings a.tag[href*="Death" i] {
+li.warnings a.tag[href*="Death" i] { /*archive warning: major character death*/
   color: #415c78;
 }
 
-.tags li.relationships a.tag {
+.tags li.relationships a.tag { /*relationship tags*/
   background-color: transparent;
   font-weight: bolder;
 }
 
-.tags li.relationships a.tag[href*="*s*" i]:hover {
+.tags li.relationships a.tag[href*="*s*" i]:hover { /*romantic relationship tags when hovered over*/
   background: #826880;
   color: #1d1c24;
 }
 
-.tags li.relationships a.tag[href*="*a*" i]:hover {
+.tags li.relationships a.tag[href*="*a*" i]:hover { /*platonic relationship tags when hovered over*/
   background: #909d91;
   color: #1d1c24;
 }
 
-li.relationships a.tag:hover {
+li.relationships a.tag:hover { /*relationship tags when hovered over*/
   background: #827d8a;
 }
 
@@ -109,25 +109,25 @@ li.relationships a.tag:hover {
   content: "";
 }
 
-.blurb .commas li.freeforms:before {
+.blurb .commas li.freeforms:before { /*freeform tag separator*/
   color: #827d8a;
   content: "⊹";
   padding: 0 .25em 0 0;
 }
 
-.commas li.relationships:before {
+.commas li.relationships:before { /*relationship tag separator*/
   content: " 𖹭 ";
   background: linear-gradient(90deg, #b872a4, #a89fd4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.commas li.characters:before {
+.commas li.characters:before { /*character tag separator*/
   content: " ✩ ";
   color: #626c90;
 }
 
-.bookmark .count {
+.bookmark .count { /*number of bookmarks background image*/
   background: url( https://i.imgur.com/CQPAIZc.jpeg) no-repeat 0 0 !important;
   height: 15px;
   width: 15px;
@@ -143,40 +143,40 @@ dl.stats dd:nth-of-type(2)::before {
   background: url(https://i.imgur.com/m5tUnS1.png);
 }
 
-dl.stats dd.language::before {
+dl.stats dd.language::before { /*language image*/
   display: none !important;
 }
 
-dl.stats dd.kudos::before {
+dl.stats dd.kudos::before { /*kudos image*/
   background: url(https://i.imgur.com/YnfgLpZ.png);
 }
 
-dl.stats dd.words::before {
+dl.stats dd.words::before { /*word count image*/
   background: url(https://i.imgur.com/BeEs9Uj.png);
 }
 
-dl.stats dd.chapters::before {
+dl.stats dd.chapters::before { /*chapter image/
   background: url(https://i.imgur.com/14TtfSu.png);
 }
 
-dl.stats dd.comments::before {
+dl.stats dd.comments::before { /*comments image*/
   background: url(https://i.imgur.com/R160dOA.png);
 }
 
 dl.stats dd.bookmarks::before,
-dl.stats dd a[href$=bookmarks]::before {
+dl.stats dd a[href$=bookmarks]::before { /*bookmarks image*/
   background: url(https://i.imgur.com/vXrAKO7.png);
 }
 
-.stats dd.inspired::before {
+.stats dd.inspired::before { /*inspired works image*/
   background: url(https://i.imgur.com/DSBf66G.png);
 }
 
-dl.stats dd.hits::before {
+dl.stats dd.hits::before { /*hits image*/
   background: url(https://i.imgur.com/TuKCemF.png);
 }
 
-dl.stats dd.collections::before {
+dl.stats dd.collections::before { /*collections image*/
   background: url(https://i.imgur.com/77i8r9E.png);
   width: 14px;
   height: 14px;
@@ -185,7 +185,7 @@ dl.stats dd.collections::before {
   margin-right: 2px;
 }
 
-dl.work dl.stats dd.published::before {
+dl.work dl.stats dd.published::before { /*date published image*/
   background: url(https://i.imgur.com/1XLvyI7.png);
   display: inline-block;
   width: 14px;
@@ -196,7 +196,7 @@ dl.work dl.stats dd.published::before {
   margin-left: 0px;
 }
 
-dl.work dl.stats dd.status::before {
+dl.work dl.stats dd.status::before { /*date last updated image*/
   background: url(https://i.imgur.com/1XKoeed.png);
   display: inline-block;
   width: 14px;
@@ -206,7 +206,7 @@ dl.work dl.stats dd.status::before {
   margin-right: 5px;
 }
 
-ul.statistics dl.stats dd.subscriptions::before {
+ul.statistics dl.stats dd.subscriptions::before { /*person(s) subscribed image*/
   background: url(https://i.imgur.com/zq30PWg.png);
   display: inline-block;
   width: 14px;
@@ -216,11 +216,11 @@ ul.statistics dl.stats dd.subscriptions::before {
   margin-right: 2px;
 }
 
-li.collection dl.stats dd a[href$=works]::before {
+li.collection dl.stats dd a[href$=works]::before { /*works in collection image*/
   background: url(https://i.imgur.com/m5tUnS1.png);
 }
 
-li.collection dl.stats dd a[href$=collections]::before {
+li.collection dl.stats dd a[href$=collections]::before { /*collections image in collection*/
   background: url(https://i.imgur.com/77i8r9E.png);
   display: inline-block;
   width: 14px;
@@ -230,15 +230,15 @@ li.collection dl.stats dd a[href$=collections]::before {
   margin-right: 5px;
 }
 
-li.collection dl.stats dd a[href$=bookmarks]::before {
+li.collection dl.stats dd a[href$=bookmarks]::before { /*bookmarks for collections*/
   background: url(https://i.imgur.com/vXrAKO7.png);
 }
 
-li.collection dl.stats dd a[href$=words]::before {
+li.collection dl.stats dd a[href$=words]::before { /*word count under collections*/
   background: url(https://i.imgur.com/BB6okS9.png);
 }
 
-li.collection dl.stats dd a[href$=fandoms]::before {
+li.collection dl.stats dd a[href$=fandoms]::before { /*fandoms under collections*/
   background: url(https://i.imgur.com/5DDAJFC.png);
 }
 
@@ -272,43 +272,43 @@ ul.required-tags,
   border: 3px solid #827d8a;
 }
 
-img[src$="/images/skins/iconsets/default/icon_user.png"] {
+img[src$="/images/skins/iconsets/default/icon_user.png"] { /*default user icon*/
   content: url("https://images.squidge.org/images/2026/02/13/1000133777.png");
 }
 
-.comment .icon .anonymous {
+.comment .icon .anonymous { /*anonymous comment icon*/
   background: url("https://imgur.com/iR8dg6X.png");
   background-size: cover;
 }
 
-.comment .icon .visitor {
+.comment .icon .visitor { /*guest icon*/
   background: url("https://images.squidge.org/images/2026/02/13/1000133778.png");
   background-size: cover;
 }
 
-img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+img[src$="/images/skins/iconsets/default/icon_collection.png"] { /*default collection icon*/
   content: url("https://imgur.com/71XRDWA.png");
 }
 
 .tagset .primary .icon,
 .tag .primary .icon,
 .index .tagset .icon {
-  background: url("https://imgur.com/UDEnXH9.png");
+  background: url("https://imgur.com/UDEnXH9.png"); /*tag icon*/
   background-size: cover;
 }
 
-.index .mystery .icon {
+.index .mystery .icon { /*mystery (unrevealed) work icon*/
   background: url("https://imgur.com/Jbc10Ya.png");
   background-size: cover;
 }
 
-.admin .primary .icon {
+.admin .primary .icon { /*admin icon (the one in news posts)*/
   background: url("https://imgur.com/DdqQtIn.png");
   background-size: cover;
 }
 
 .skins .primary .icon:not(:has(a .icon)),
-.index .skins .icon:not(:has(a .icon)) {
+.index .skins .icon:not(:has(a .icon)) { /*skin icon*/
   background: url("https://imgur.com/ILTRxIs.png");
   background-size: cover;
 }
@@ -333,108 +333,108 @@ img[src$="/images/skins/iconsets/default/icon_collection.png"] {
 .required-tags .warning-no,
 img[src$="/images/skins/iconsets/default/rating-notrated.png"],
 img[src$="/images/skins/iconsets/default/category-none.png"],
-img[src$="/images/skins/iconsets/default/warning-no.png"] {
+img[src$="/images/skins/iconsets/default/warning-no.png"] { 
   background: #fff;
 }
 
 .required-tags .rating-general-audience,
-img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] { /*general audiences icon*/
   background: url("https://i.imgur.com/KcLQoEB.jpeg");
   background-size: cover;
 }
 
 .required-tags .rating-teen,
-img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+img[src$="/images/skins/iconsets/default/rating-teen.png"] { /*teen audiences icon*/
   background: url("https://i.imgur.com/DCPRiOC.jpeg");
   background-size: cover;
 }
 
 .required-tags .rating-mature,
-img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+img[src$="/images/skins/iconsets/default/rating-mature.png"] { /*mature audiences icon*/
   background: url("https://i.imgur.com/gqmGy0C.jpeg");
   background-size: cover;
 }
 
 .required-tags .rating-explicit,
-img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] { /*explicit content icon*/
   background: url("https://i.imgur.com/9VAo5ms.jpeg");
   background-size: cover;
 }
 
 .required-tags .category-femslash,
-img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+img[src$="/images/skins/iconsets/default/category-femslash.png"] { /*F/F relationship icon*/
   background: url("https://i.imgur.com/IMS6hVO.jpeg");
   background-size: cover;
 }
 
 .required-tags .category-het,
-img[src$="/images/skins/iconsets/default/category-het.png"] {
+img[src$="/images/skins/iconsets/default/category-het.png"] { /*F/M relationship icon*/
   background: url("https://i.imgur.com/KHc2g3o.jpeg");
   background-size: cover;
 }
 
 .required-tags .category-gen,
-img[src$="/images/skins/iconsets/default/category-gen.png"] {
+img[src$="/images/skins/iconsets/default/category-gen.png"] { /*gen/platonic relationships icon*/
   background: url("https://i.imgur.com/kXeZyFb.jpeg");
   background-size: cover;
 }
 
 .required-tags .category-slash,
-img[src$="/images/skins/iconsets/default/category-slash.png"] {
+img[src$="/images/skins/iconsets/default/category-slash.png"] { /*M/M relationship icon*/
   background: url("https://i.imgur.com/0Kw6QPr.jpeg");
   background-size: cover;
 }
 
 .required-tags .category-multi,
-img[src$="/images/skins/iconsets/default/category-multi.png"] {
+img[src$="/images/skins/iconsets/default/category-multi.png"] { /*multi relationship icon*/
   background: url("https://i.imgur.com/mWmAFWY.jpeg");
   background-size: cover;
 }
 
 .required-tags .category-other,
-img[src$="/images/skins/iconsets/default/category-other.png"] {
+img[src$="/images/skins/iconsets/default/category-other.png"] { /*other relationship icon*/
   background: url("https://i.imgur.com/Hj3Wnl2.jpeg");
   background-size: cover;
 }
 
 .required-tags .warning-choosenotto,
-img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] { /*creator chose not to use archive warnings icon*/
   background: url("https://i.imgur.com/Fk3VQF6.jpeg");
   background-size: cover;
 }
 
 .required-tags .warning-yes,
-img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+img[src$="/images/skins/iconsets/default/warning-yes.png"] { /*archive warnings apply icon*/
   background: url("https://i.imgur.com/iaxLyfM.jpeg");
   background-size: cover;
 }
 
 .required-tags .external-work,
-img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] { /*external work icon*/
   background: url("https://i.imgur.com/pHvIwtF.jpeg");
   background-size: cover;
 }
 
 .required-tags .complete-no,
-img[src$="/images/skins/iconsets/default/complete-no.png"] {
+img[src$="/images/skins/iconsets/default/complete-no.png"] { /*incomplete work icon*/
   background: url("https://i.imgur.com/qQqq9u2.jpeg");
   background-size: cover;
 }
 
 .required-tags .complete-yes,
-img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+img[src$="/images/skins/iconsets/default/complete-yes.png"] { /*completed work icon*/
   background: url("https://i.imgur.com/WvV65eW.jpeg");
   background-size: cover;
 }
 
 .status .rec,
-img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] { /*recommended bookmarks icon*/
   background: url("https://i.imgur.com/FyG1aam.jpeg");
   background-size: cover;
 }
 
 .status .public,
-img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] { /*regular public bookmarks icon*/
   background: url("https://i.imgur.com/nDMK9B4.jpeg");
   background-size: cover;
 }
@@ -442,7 +442,7 @@ img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
 .status .private .text,
 img[src$="/images/skins/iconsets/default/bookmark-private.png"],
 .status .hidden,
-img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] { /*private bookmark icon*/
   background: url("https://i.imgur.com/QLlUyBc.png");
   background-size: cover;
 }
@@ -459,7 +459,7 @@ a.rss span {
   column-gap: 0.7em;
 }
 
-.actions li a.rss::before {
+.actions li a.rss::before { /*rss icon*/
   content: "";
   height: 1em;
   width: 1em;
@@ -471,7 +471,7 @@ p.kudos {
   background: none;
 }
 
-div:has(> p.kudos)::before {
+div:has(> p.kudos)::before { /*kudos icon (inside a work at the bottom with all the other kudos)*/
   content: "";
   height: 55px;
   width: 55px;
@@ -480,36 +480,20 @@ div:has(> p.kudos)::before {
   background-size: cover;
 }
 
-img[src$="/images/lockblue.png"] {
+img[src$="/images/lockblue.png"] { /*restricted works*/
   content: url("https://imgur.com/EZA5xvp.png");
   filter: brightness(0) saturate(100%) invert(39%) sepia(10%) saturate(1412%) hue-rotate(206deg) brightness(100%) contrast(91%);
 }
 
-#header .logo {
+#header .logo { /*default ao3 logo*/
   content: url("/images/logo.png");
   filter: brightness(0) saturate(100%) invert(93%) sepia(9%) saturate(284%) hue-rotate(216deg) brightness(83%) contrast(96%);
 }
 
-#header #search .button:focus {
+#header #search .button:focus { /*header search button when hovered over*/
   color: #FFFFFF;
   background: linear-gradient(90deg, #bbb6d6, #7e799c);
   outline: 1.5px solid #847ea6;
-}
-
-.filters .expander,
-.filters .expanded .expander {
-  background: none;
-}
-
-.filters .expander::before {
-  content: "▶  ";
-  color: #827d8a;
-}
-
-.filters .expanded .expander::before {
-  content: "▼  ";
-  color: #cac5d1;
-  min-height: 2.5em !important;
 }
 
 .filters input:checked+.indicator+span {
