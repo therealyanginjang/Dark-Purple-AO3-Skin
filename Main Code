@@ -18,7 +18,7 @@ textarea,
   border-radius: 3px;
 }
 
-::selection {
+::selection { /*colour of text when highlighted*/
   background: #cac5d1 !important;
   color: #2a2933 !important;
 }
@@ -167,14 +167,6 @@ li.comment,
 .actions a:hover,
 .actions input:hover {
   border-color: transparent;
-}
-
-.blurb.work:not(:has(dd[lang$="en"])):before {
-  content: "Work removed for Non-English language";
-}
-
-.blurb.work:not(:has(dd[lang$="en"])) > * {
-  display: none !important;
 }
 
 a,
@@ -796,66 +788,6 @@ ul.series li {
   color: #cac5d1;
   padding: .25em .5em;
   border-radius: 2em;
-}
-
-input[name="preview_button"] {
-  color: #ffffff;
-  background: #78506B !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="post_button"] {
-  color: #ffffff;
-  background: #555078 !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="preview_button"]:hover {
-  color: #000000 !important;
-  background: #B788A8 !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="post_button"]:hover {
-  color: #000000 !important;
-  background: #8A84C4 !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="cancel_button"] {
-  color: #ffffff;
-  background: #65001E !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="cancel_button"]:hover {
-  color: #000000 !important;
-  background: #93002D !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
 }
 
 .reading h4.viewed {
