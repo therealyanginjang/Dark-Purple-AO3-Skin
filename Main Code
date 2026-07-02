@@ -1030,7 +1030,8 @@ fieldset fieldset.listbox {
 }
 
 .splash .favorite a,
-.splash .module h3 {
+.splash .module h3,
+.splash .browse li a:before{
   color: #cac5d1;
 }
 
