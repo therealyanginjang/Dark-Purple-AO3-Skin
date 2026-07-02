@@ -551,7 +551,7 @@ textarea.LV_invalid_field:active {
 }
 
 #header .primary>li:first-of-type {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 #header .primary a,
