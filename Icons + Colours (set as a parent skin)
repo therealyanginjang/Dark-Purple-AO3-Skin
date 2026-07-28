@@ -500,11 +500,6 @@ img[src$="/images/lockblue.png"] { /*restricted works*/
   text-decoration: underline;
 }
 
-.filters .submit input {
-  color: #2a2933;
-  background: #cac5d1;
-}
-
 .filters [type="radio"]:checked + .indicator::after,
 .filters [type="checkbox"]:checked + .indicator::after,
 [type="radio"]:checked + .indicator::after {
